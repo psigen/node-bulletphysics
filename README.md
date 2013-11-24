@@ -5,25 +5,28 @@ Node.js bindings to Bullet Physics through [node-ffi].
 
 These bindings are automatically generated via [node-ffi-generate] from the Bullet C API header file (`Bullet-C-Api.h`).  They have a 1:1 mapping with the existing Bullet C API documentation.
 
-  * [Documentation for the Bullet C API](http://bulletphysics.org/Bullet/BulletFull/Bullet-C-Api_8h.html)
+  * [Documentation for the Bullet C API]
 
 Installing this library via NPM
 -------------------------------
 Currently, this library is not published to `npm`.  However, you can use it in npm projects by adding it to your `package.json` using a git url:
 
-    "dependencies": { 
-      "bulletphysics": "git://github.com/psigen/node-bulletphysics.git"
-    }
+```javascript
+"dependencies": { 
+  "bulletphysics": "git://github.com/psigen/node-bulletphysics.git"
+}
+```
 
 Example Usage
 -------------
-
-    var bullet = require('bulletphysics').bullet;
-    var sdk = bullet.plNewBulletSdk();
-    ...
-    console.log('Doing Bullet stuff...');
-    ...
-    bullet.plDeletePhysicsSdk(sdk);
+```javascript
+var bullet = require('bulletphysics').bullet;
+var sdk = bullet.plNewBulletSdk();
+...
+console.log('Doing Bullet stuff...');
+...
+bullet.plDeletePhysicsSdk(sdk);
+```
 
 Compilation notes
 -----------------
@@ -32,7 +35,7 @@ Compilation notes
   * Some functions from the C API were removed, as they had no actual implementation in the source code.  They are commented out in [bulletphysics.js](lib/bulletphysics.js)
   * GPU accelerated functions were not compiled, since they add a dependency on OpenCL that I didn't want to handle.
 
-References
-----------
+<!-- Link references -->
 [node-ffi]: https://github.com/rbranson/node-ffi
 [node-ffi-generate]: https://github.com/tjfontaine/node-ffi-generate
+[Documentation for the Bullet C API]: http://bulletphysics.org/Bullet/BulletFull/Bullet-C-Api_8h.html
