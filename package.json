@@ -29,6 +29,9 @@
     "src": "./src"
   },
   "main": "./lib/bulletphysics",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
   "dependencies" : {
     "ffi": "*",
     "ref": "*"
