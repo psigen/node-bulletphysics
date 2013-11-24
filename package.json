@@ -34,7 +34,9 @@
   },
   "dependencies" : {
     "ffi": "*",
-    "ref": "*"
+    "ref": "*",
+    "ref-array": "*",
+    "ref-struct": "*"
   },
   "devDependencies": {
     "ffi-generate": "*",
