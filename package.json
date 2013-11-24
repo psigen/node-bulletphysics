@@ -1,0 +1,33 @@
+{
+  "name": "bullet",
+  "version": "0.0.1",
+  "description": "node.js bindings to Bullet Physics engine",
+  "author": { 
+    "name": "Pras Velagapudi <psigen@gmail.com>",
+    "email": "psigen@gmail.com"
+  },
+  "contributors": [ 
+    {
+      "name": "Pyry Matikainen",
+      "email": "pkmatikainen@gmail.com"
+    } 
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psigen/node-bullet.git"
+  },
+  "bugs": "http://github.com/psigen/node-bullet/issues",
+  "keywords": [
+    "game",
+    "bullet",
+    "physics",
+    "wrapper"
+  ],
+  "license": "BSD",
+  "dependencies" : {
+    "node-ffi" : "*"
+  },
+  "engines": {
+    "node": ">=1.0"
+  }
+}
