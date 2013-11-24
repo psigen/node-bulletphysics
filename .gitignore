@@ -12,7 +12,6 @@ logs
 results
 build
 src/bullet
-lib/bulletphysics.js
 
 npm-debug.log
 node_modules

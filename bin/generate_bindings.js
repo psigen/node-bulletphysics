@@ -1,5 +1,8 @@
 /**
- * This script automatically generates bindings for the Bullet C API.
+ * Running script automatically generates new bindings for the Bullet C API.
+ * 
+ * However, a small amount of preprocessing is required afterwards, if there 
+ * are unimplements functions or things like that in the exported API.
  */
 var path = require('path');
 var fs = require('fs');

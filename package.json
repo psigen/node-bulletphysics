@@ -29,9 +29,6 @@
     "src": "./src"
   },
   "main": "./lib/bulletphysics",
-  "scripts": {
-    "postinstall": "node bin/generate_bindings.js"
-  },
   "dependencies" : {
     "ffi": "*",
     "ref": "*",
