@@ -24,6 +24,11 @@
     "wrapper"
   ],
   "license": "BSD",
+  "directories": {
+    "lib": "./lib",
+    "src": "./src"
+  },
+  "main": "./lib/bulletphysics",
   "dependencies" : {
     "node-ffi" : "*"
   },
