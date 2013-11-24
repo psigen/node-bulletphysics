@@ -9,7 +9,8 @@ var generate = require('ffi-generate').generate;
 // Automatically generate bullet bindings
 var result = generate({
     filename: path.join(__dirname, '..', 'src', 'bullet', 'src', 'Bullet-C-Api.h'),
-    library: path.join(__dirname, '..', 'build', 'Release', 'libbullet.so')
+    library: path.join(__dirname, '..', 'build', 'Release', 'libbullet.so'),
+    module: 'bullet'
 });
 
 // Report functions that could not be mapped

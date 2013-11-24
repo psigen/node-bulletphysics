@@ -30,7 +30,7 @@
   },
   "main": "./lib/bulletphysics",
   "scripts": {
-    "postinstall": "node bin/generate.js"
+    "postinstall": "node bin/generate_bindings.js"
   },
   "dependencies" : {
     "ffi": "*",
