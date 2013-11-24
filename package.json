@@ -30,7 +30,8 @@
   },
   "main": "./lib/bulletphysics",
   "dependencies" : {
-    "node-ffi" : "*"
+    "ffi": "*",
+    "ref": "*"
   },
   "engines": {
     "node": ">=1.0"
