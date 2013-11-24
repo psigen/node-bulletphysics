@@ -1,5 +1,5 @@
 {
-  "name": "bullet",
+  "name": "bulletphysics",
   "version": "0.0.1",
   "description": "node.js bindings to Bullet Physics engine",
   "author": { 
